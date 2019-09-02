@@ -1,0 +1,23 @@
+
+body{
+    background-color: darkmagenta;
+    text-align: center;
+    line-height: 10vh;
+    margin: 50;
+ }
+ button{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    vertical-align: super;
+    width: 100px;
+    height: 250px;
+    background-color: white;
+    color: black;
+ }
+ 
+ button.sharp{
+    width: 50px;
+    background-color: black;
+    color: white;
+ }
