@@ -1,4 +1,6 @@
-const buttons=document.querySelectorAll('button');
+
+const buttons = document.querySelectorAll('button');
+ 
 const playnote = event =>{
     const button = event.target;
     const note = button.dataset.note;
@@ -15,7 +17,7 @@ buttons.forEach(
     button => button.addEventListener('click', playnote )
 );
 
-const KeyNoteDown = event=> {
+const KeyNoteDown = event =>{
     
     //console.log(event);
     const key = event.key;
