@@ -21,3 +21,11 @@ body{
     background-color: black;
     color: white;
  }
+ #vale{
+   position: absolute;
+   z-index: 100;
+   left: 0px;
+   bottom: 50px;
+   width: 200px;
+   height: 200px;
+ }
