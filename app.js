@@ -13,11 +13,13 @@ const playnote = event =>{
     audio.play();
 }
 
+const drumButtons = document.querySelectorAll('button');
+
 buttons.forEach(
     button => {
         button.addEventListener('click', playnote );
-        button.style.length = button.dataset.posx;
-        button.style.top = button.dataset.posy;
+        button.style.left = `${button.dataset.posx}px`;
+        button.style.top = `${button.dataset.posy}px`;
     }
 );
 

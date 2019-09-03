@@ -15,46 +15,16 @@ body{
 
     
  }
-  button:nth-child(1){
-    background-color: indigo;
-    height: 120px;
-    width: 120px;
-    
+
+ #button-drum-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
  }
 
- button:nth-child(2){
-   background-color: aqua;
-   height: 150;
-   width: 150;
-   
-}
-
-button:nth-child(3){
-   background-color: lightgreen;
-   height: 170;
-   width: 170;
-   
-}
-
-button:nth-child(4){
-   background-color: blue;
-   height: 140;
-   width: 140;
-   
-}
-
-button:nth-child(5){
-   background-color: chartreuse;
-   height: 170;
-   width: 170;
-   
-}
-
-button:nth-child(6){
-   background-color: darkgray;
-   height: 200;
-   width: 200;
-   
-}
-
- 
+ .bongo{
+    position: relative;
+ }
