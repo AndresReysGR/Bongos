@@ -14,15 +14,20 @@ const playnote = event =>{
 }
 
 buttons.forEach(
-    button => button.addEventListener('click', playnote )
+    button => {
+        button.addEventListener('click', playnote );
+        button.style.length = button.dataset.posx;
+        button.style.top = button.dataset.posy;
+    }
 );
 
-const KeyNoteDown = event =>{
+const keyNoteDown = event =>{
     
     //console.log(event);
     const key = event.key;
     console.log(key);
-   const button = document.querySelector(`button[data-key="${key}"]`)
+   const button = document.querySelector(`button[data-key="${key}"]`);
     if (button) button.click();
 }
 document.addEventListener('keydown', keyNoteDown);
+
