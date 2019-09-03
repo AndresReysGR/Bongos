@@ -1,3 +1,4 @@
+const buttons=document.querySelectorAll('button');
 const playnote = event =>{
     const button = event.target;
     const note = button.dataset.note;
@@ -22,3 +23,4 @@ const KeyNoteDown = event=> {
    const button = document.querySelector(`button[data-key="${key}"]`)
     if (button) button.click();
 }
+document.addEventListener('keydown', keyNoteDown);
