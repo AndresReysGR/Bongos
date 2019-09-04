@@ -1,10 +1,11 @@
 
 body{
-    background-color: darkmagenta;
+    background-image: url(awa1.gif);
+    background-size: cover;
     text-align: center;
-    line-height: 10vh;
-   
+    line-height: 10vh;   
  }
+ 
  button{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,26 +28,26 @@ body{
 
  .bongo{
     position: relative;
-    width:30px;
-    height:30px;
-    background-color: aqua;
-    margin: 5px;
-    padding: 10px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    font-size: 11px;
-    line-height:32px;
+    width:60px;
+    height:60px;
+    background-color: rgb(240, 166, 82);
+    margin: 20px;
+    padding: 25px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    font-size: 30px;
+    line-height:58px;
     text-transform: uppercase;
     float:left;
  }
  .bongo:hover{
-opacity: 0.50;
--moz-opacity: .50;
-filter:alpha (opacity=50);
+opacity: 1.5;
+-moz-opacity: 1.5;
+filter:alpha (opacity=55);
  }
  .bongo a{
     color:crimson;
     text-decoration: none;
-    padding: 5px 5px 5px 0;
+    padding: 15px 15px 15px 1;
  }
