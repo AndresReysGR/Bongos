@@ -5,6 +5,11 @@ body{
     text-align: center;
     line-height: 10vh;   
  }
+
+ p {
+   border: 1px solid powderblue;
+   margin: 50px;
+ }
  
  button{
     
@@ -51,3 +56,5 @@ filter:alpha (opacity=55);
     text-decoration: none;
     padding: 15px 15px 15px 1;
  }
+
+
