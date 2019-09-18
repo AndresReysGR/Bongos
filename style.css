@@ -57,4 +57,27 @@ filter:alpha (opacity=55);
     padding: 15px 15px 15px 1;
  }
 
-
+ h1 {
+   color: blue;
+   font-family: verdana;
+   font-size: 300%;
+ }
+ h3  {
+   color: black;
+   font-family: courier;
+   font-size: 120%;
+   line-height: 130%;
+ }
+ a {
+   color: maroon;
+   font-family: verdana;
+   font-size: 130%;
+   display:inline;
+ }
+ h5  {
+   color: navy;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 110%;
+   font-weight: bolder;
+   line-height: 150%;
+ }
